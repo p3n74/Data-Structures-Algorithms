@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/bastionii/Documents/GitHub/Data-Structures-Algorithms/Data-Structures-Algorithms/Mam P activities/output/Activity_01'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003E80, symSize: 0x3C }
+  - { offsetInCU: 0x70, offset: 0x70, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003E80, symSize: 0x3C }
+  - { offsetInCU: 0xA6, offset: 0xA6, size: 0x8, addend: 0x0, symName: _initListWithoutheader, symObjAddr: 0x3C, symBinAddr: 0x100003EBC, symSize: 0x18 }
+  - { offsetInCU: 0xCA, offset: 0xCA, size: 0x8, addend: 0x0, symName: _insertLast, symObjAddr: 0x54, symBinAddr: 0x100003ED4, symSize: 0x88 }
+  - { offsetInCU: 0x118, offset: 0x118, size: 0x8, addend: 0x0, symName: _initListWithHeader, symObjAddr: 0xDC, symBinAddr: 0x100003F5C, symSize: 0x38 }
+...
