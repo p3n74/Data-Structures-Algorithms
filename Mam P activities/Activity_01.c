@@ -82,9 +82,11 @@ void deletefirst(int elem, List *a){
     List *trav;
     for(trav = a; *trav != NULL && (*trav)->data != elem; trav = &(*trav)->next){}
     //house keeping
-    List temp = *trav;
-    (*trav) = (*trav)->next;
-    free(temp);
+    if(*trav){
+        List temp = *trav;
+        *trav = (*trav)->next;
+        free(temp);
+    }
 }
 
 void deletefirstlookahead(int elem, List a){

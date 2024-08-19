@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/bastionii/Documents/GitHub/Data-Structures-Algorithms/Data-Structures-Algorithms/Mam P activities/output/findmiddle'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _genRand, symObjAddr: 0x0, symBinAddr: 0x100003B5C, symSize: 0x44 }
+  - { offsetInCU: 0x7E, offset: 0x7E, size: 0x8, addend: 0x0, symName: _genRand, symObjAddr: 0x0, symBinAddr: 0x100003B5C, symSize: 0x44 }
+  - { offsetInCU: 0xC2, offset: 0xC2, size: 0x8, addend: 0x0, symName: _createList, symObjAddr: 0x44, symBinAddr: 0x100003BA0, symSize: 0xC0 }
+  - { offsetInCU: 0x12C, offset: 0x12C, size: 0x8, addend: 0x0, symName: _printList, symObjAddr: 0x104, symBinAddr: 0x100003C60, symSize: 0xA0 }
+  - { offsetInCU: 0x15E, offset: 0x15E, size: 0x8, addend: 0x0, symName: _createRandomListLength, symObjAddr: 0x1A4, symBinAddr: 0x100003D00, symSize: 0xC8 }
+  - { offsetInCU: 0x1BA, offset: 0x1BA, size: 0x8, addend: 0x0, symName: _findMiddle, symObjAddr: 0x26C, symBinAddr: 0x100003DC8, symSize: 0x108 }
+  - { offsetInCU: 0x224, offset: 0x224, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x374, symBinAddr: 0x100003ED0, symSize: 0x5C }
+...
