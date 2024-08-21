@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/bastionii/Documents/GitHub/Data-Structures-Algorithms/Data-Structures-Algorithms/Mam P activities/output/insertSorted'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _genRand, symObjAddr: 0x0, symBinAddr: 0x1000038EC, symSize: 0x44 }
+  - { offsetInCU: 0xBC, offset: 0xBC, size: 0x8, addend: 0x0, symName: _genRand, symObjAddr: 0x0, symBinAddr: 0x1000038EC, symSize: 0x44 }
+  - { offsetInCU: 0x100, offset: 0x100, size: 0x8, addend: 0x0, symName: _createList, symObjAddr: 0x44, symBinAddr: 0x100003930, symSize: 0xC0 }
+  - { offsetInCU: 0x16A, offset: 0x16A, size: 0x8, addend: 0x0, symName: _printList, symObjAddr: 0x104, symBinAddr: 0x1000039F0, symSize: 0xA0 }
+  - { offsetInCU: 0x19C, offset: 0x19C, size: 0x8, addend: 0x0, symName: _createRandomListLength, symObjAddr: 0x1A4, symBinAddr: 0x100003A90, symSize: 0xC8 }
+  - { offsetInCU: 0x1F8, offset: 0x1F8, size: 0x8, addend: 0x0, symName: _populateArray, symObjAddr: 0x26C, symBinAddr: 0x100003B58, symSize: 0x74 }
+  - { offsetInCU: 0x238, offset: 0x238, size: 0x8, addend: 0x0, symName: _printListArray, symObjAddr: 0x2E0, symBinAddr: 0x100003BCC, symSize: 0xE8 }
+  - { offsetInCU: 0x278, offset: 0x278, size: 0x8, addend: 0x0, symName: _printInput, symObjAddr: 0x3C8, symBinAddr: 0x100003CB4, symSize: 0x38 }
+  - { offsetInCU: 0x29C, offset: 0x29C, size: 0x8, addend: 0x0, symName: _insertSorted, symObjAddr: 0x400, symBinAddr: 0x100003CEC, symSize: 0x1C8 }
+  - { offsetInCU: 0x2F8, offset: 0x2F8, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x5C8, symBinAddr: 0x100003EB4, symSize: 0x78 }
+...
