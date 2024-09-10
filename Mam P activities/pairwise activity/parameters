@@ -1,0 +1,39 @@
+Operatons:
+
+push, pop, top
+
+empty - returns true if stack is empty
+full - return true if stack is full
+
+intialize
+
+
+implement an adt stack stackadt.h file. the .h file will contain a stack datatype definition 
+and the code of all stack functions and displayStack().
+
+use the following preprocessor statements:
+
+#ifndef STACK_H
+#define STACK_H
+// definition
+$endif
+
+create a driver program, that includes the stackadt.h file, checks and uses the operations defined in stackadt.h
+
+
+make:
+
+stackADT_array.h & stackADT_linkedList.h 
+
+
+typedef struct {
+    char elem[max];
+    int top;
+}stack
+
+
+
+typedef struct node {
+    char data;
+    struct node* next;
+}*stack
