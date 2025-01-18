@@ -1,66 +1,69 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "virtualheapfunc.c"
 
-#include "back.c"
-#include "back.h"
+void printMenu();
+int intscanner();
+void printSysInfo(virtualHeap* VH);
 
-void initHeap(virtualHeap *VH);
-void populateListRandom(virtualHeap *VH);
-void printHeap(virtualHeap *VH, int head);
 
 int main (){
     // Initialize randomizer
-
     srand(time(NULL));
 
     // allocate the virtual heap
-
     virtualHeap* VH = (virtualHeap *)malloc(sizeof(virtualHeap));
 
+    int mode = 0;
+
+    int head = -1;
+
+    int errorCode = 0;
+
     initHeap(VH);
-    populateListRandom(VH);
-    printHeap(VH, -1);
+    //populateListRandom(VH);
+
+    while(mode != 1){
+
+        system("clear");
+        printSysInfo(VH);
+        printList(VH, head);
+        printMenu();
+
+        printError(&errorCode);
+
+        mode = intscanner();
+        if(mode == 2){
+            errorCode = push(VH, &head);
+        } else if (mode == 3){
+            errorCode = pop(VH, &head);
+        }
+    }
+
+
 
 
     return 0;
 }
 
-void initHeap(virtualHeap *VH){
 
-    int x;
-    VH->avail = 0;
 
-    for(x = 0; x < MAX - 1; x++){
-        VH->nodes[x].next = x + 1;
-    }
-    VH->nodes[MAX - 1].next = -1;
 
+
+void printMenu(){
+   
+    printf("\n\t Menu \n");
+    printf("[1] Exit\n");
+
+    printf("\n Stack Functions: \n");
+
+    printf("[2] Push\n");
+    printf("[3] Pop\n");
+
+    printf("\n Queue Functions: \n");
+    printf("[4] Enqueue\n");
+    printf("[5] Dequeue\n");
 }
 
-void populateListRandom(virtualHeap *VH){
 
-    int temp;
-    for(temp = VH->avail; VH->nodes[temp].next != -1; temp = VH->nodes[temp].next){
-        VH->nodes[temp].data = genRand(20,1);
-    }
-}
-
-void printHeap(virtualHeap *VH, int head){
-
-    int temp, ahead;
-
-    printf("Available Nodes: \n");
-    for(temp = VH->avail, ahead = VH->nodes[temp].next; VH->nodes[temp].next != -1 && VH->nodes[ahead].next != -1; temp = VH->nodes[temp].next, ahead = VH->nodes[ahead].next){
-        printf("%d -> ", VH->nodes[temp].data);
-    }
-    printf("%d\n", VH->nodes[temp++].data);
-
-    if(head == -1){
-        printf("No list entered\n");
-    } else {
-        for(temp = VH->avail, ahead = VH->nodes[temp].next; VH->nodes[temp].next != -1 && VH->nodes[ahead].next != -1; temp = VH->nodes[temp].next, ahead = VH->nodes[ahead].next){
-        printf("%d ->", VH->nodes[temp].data);
-    }
-    }
-}

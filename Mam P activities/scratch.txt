@@ -1,0 +1,5 @@
+solutions to collision in hashing canuse double hasing but its depending on the instruction.
+
+Hash funciton can access bits.
+
+The fitnesgram pacer test is a multikk

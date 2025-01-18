@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/bastionii/Documents/GitHub/Data-Structures-Algorithms/Data-Structures-Algorithms/Mam P activities/mergeklistsv2/output/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _createlist, symObjAddr: 0x0, symBinAddr: 0x100003E54, symSize: 0xA8 }
+  - { offsetInCU: 0x6B, offset: 0x6B, size: 0x8, addend: 0x0, symName: _createlist, symObjAddr: 0x0, symBinAddr: 0x100003E54, symSize: 0xA8 }
+  - { offsetInCU: 0xCB, offset: 0xCB, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xA8, symBinAddr: 0x100003EFC, symSize: 0x94 }
+...

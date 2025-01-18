@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/bastionii/Documents/GitHub/Data-Structures-Algorithms/Data-Structures-Algorithms/OldStuff/output/binarySearch'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _genRand, symObjAddr: 0x0, symBinAddr: 0x10000394C, symSize: 0x44 }
+  - { offsetInCU: 0xF8, offset: 0xF8, size: 0x8, addend: 0x0, symName: _genRand, symObjAddr: 0x0, symBinAddr: 0x10000394C, symSize: 0x44 }
+  - { offsetInCU: 0x13C, offset: 0x13C, size: 0x8, addend: 0x0, symName: _createList, symObjAddr: 0x44, symBinAddr: 0x100003990, symSize: 0xC0 }
+  - { offsetInCU: 0x1A6, offset: 0x1A6, size: 0x8, addend: 0x0, symName: _printList, symObjAddr: 0x104, symBinAddr: 0x100003A50, symSize: 0xA0 }
+  - { offsetInCU: 0x1D8, offset: 0x1D8, size: 0x8, addend: 0x0, symName: _createRandomListLength, symObjAddr: 0x1A4, symBinAddr: 0x100003AF0, symSize: 0xC8 }
+  - { offsetInCU: 0x234, offset: 0x234, size: 0x8, addend: 0x0, symName: _removeduplicates, symObjAddr: 0x26C, symBinAddr: 0x100003BB8, symSize: 0xFC }
+  - { offsetInCU: 0x282, offset: 0x282, size: 0x8, addend: 0x0, symName: _genRandListUnique, symObjAddr: 0x368, symBinAddr: 0x100003CB4, symSize: 0xE4 }
+  - { offsetInCU: 0x2B8, offset: 0x2B8, size: 0x8, addend: 0x0, symName: _createList2, symObjAddr: 0x44C, symBinAddr: 0x100003D98, symSize: 0xE0 }
+  - { offsetInCU: 0x330, offset: 0x330, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x52C, symBinAddr: 0x100003E78, symSize: 0xCC }
+...

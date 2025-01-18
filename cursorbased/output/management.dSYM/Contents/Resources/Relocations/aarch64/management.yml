@@ -2,10 +2,19 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/bastionii/Documents/GitHub/Data-Structures-Algorithms/Data-Structures-Algorithms/cursorbased/output/management'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _genRand, symObjAddr: 0x0, symBinAddr: 0x100003B74, symSize: 0x44 }
-  - { offsetInCU: 0xB1, offset: 0xB1, size: 0x8, addend: 0x0, symName: _genRand, symObjAddr: 0x0, symBinAddr: 0x100003B74, symSize: 0x44 }
-  - { offsetInCU: 0xF5, offset: 0xF5, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x44, symBinAddr: 0x100003BB8, symSize: 0x5C }
-  - { offsetInCU: 0x11D, offset: 0x11D, size: 0x8, addend: 0x0, symName: _initHeap, symObjAddr: 0xA0, symBinAddr: 0x100003C14, symSize: 0x6C }
-  - { offsetInCU: 0x14F, offset: 0x14F, size: 0x8, addend: 0x0, symName: _populateListRandom, symObjAddr: 0x10C, symBinAddr: 0x100003C80, symSize: 0x84 }
-  - { offsetInCU: 0x181, offset: 0x181, size: 0x8, addend: 0x0, symName: _printHeap, symObjAddr: 0x190, symBinAddr: 0x100003D04, symSize: 0x228 }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _genRand, symObjAddr: 0x0, symBinAddr: 0x100003670, symSize: 0x44 }
+  - { offsetInCU: 0xB1, offset: 0xB1, size: 0x8, addend: 0x0, symName: _genRand, symObjAddr: 0x0, symBinAddr: 0x100003670, symSize: 0x44 }
+  - { offsetInCU: 0xF5, offset: 0xF5, size: 0x8, addend: 0x0, symName: _intscanner, symObjAddr: 0x44, symBinAddr: 0x1000036B4, symSize: 0x50 }
+  - { offsetInCU: 0x11D, offset: 0x11D, size: 0x8, addend: 0x0, symName: _printError, symObjAddr: 0x94, symBinAddr: 0x100003704, symSize: 0x84 }
+  - { offsetInCU: 0x141, offset: 0x141, size: 0x8, addend: 0x0, symName: _initHeap, symObjAddr: 0x118, symBinAddr: 0x100003788, symSize: 0x6C }
+  - { offsetInCU: 0x173, offset: 0x173, size: 0x8, addend: 0x0, symName: _allocSpace, symObjAddr: 0x184, symBinAddr: 0x1000037F4, symSize: 0x50 }
+  - { offsetInCU: 0x1A9, offset: 0x1A9, size: 0x8, addend: 0x0, symName: _deallocSpace, symObjAddr: 0x1D4, symBinAddr: 0x100003844, symSize: 0x68 }
+  - { offsetInCU: 0x1E9, offset: 0x1E9, size: 0x8, addend: 0x0, symName: _populateListRandom, symObjAddr: 0x23C, symBinAddr: 0x1000038AC, symSize: 0x84 }
+  - { offsetInCU: 0x21B, offset: 0x21B, size: 0x8, addend: 0x0, symName: _printList, symObjAddr: 0x2C0, symBinAddr: 0x100003930, symSize: 0x108 }
+  - { offsetInCU: 0x25B, offset: 0x25B, size: 0x8, addend: 0x0, symName: _countAvail, symObjAddr: 0x3C8, symBinAddr: 0x100003A38, symSize: 0x64 }
+  - { offsetInCU: 0x29F, offset: 0x29F, size: 0x8, addend: 0x0, symName: _push, symObjAddr: 0x42C, symBinAddr: 0x100003A9C, symSize: 0xE4 }
+  - { offsetInCU: 0x31B, offset: 0x31B, size: 0x8, addend: 0x0, symName: _pop, symObjAddr: 0x510, symBinAddr: 0x100003B80, symSize: 0xF4 }
+  - { offsetInCU: 0x36D, offset: 0x36D, size: 0x8, addend: 0x0, symName: _printSysInfo, symObjAddr: 0x604, symBinAddr: 0x100003C74, symSize: 0x50 }
+  - { offsetInCU: 0x39F, offset: 0x39F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x654, symBinAddr: 0x100003CC4, symSize: 0xF4 }
+  - { offsetInCU: 0x3F1, offset: 0x3F1, size: 0x8, addend: 0x0, symName: _printMenu, symObjAddr: 0x748, symBinAddr: 0x100003DB8, symSize: 0x70 }
 ...

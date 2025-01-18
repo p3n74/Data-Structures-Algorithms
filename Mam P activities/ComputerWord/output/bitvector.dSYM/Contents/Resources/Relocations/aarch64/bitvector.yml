@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/bastionii/Documents/GitHub/Data-Structures-Algorithms/Data-Structures-Algorithms/Mam P activities/ComputerWord/output/bitvector'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003AE0, symSize: 0x80 }
+  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003AE0, symSize: 0x80 }
+  - { offsetInCU: 0x70, offset: 0x70, size: 0x8, addend: 0x0, symName: _init, symObjAddr: 0x80, symBinAddr: 0x100003B60, symSize: 0x18 }
+  - { offsetInCU: 0x94, offset: 0x94, size: 0x8, addend: 0x0, symName: _insert, symObjAddr: 0x98, symBinAddr: 0x100003B78, symSize: 0x4C }
+  - { offsetInCU: 0xC6, offset: 0xC6, size: 0x8, addend: 0x0, symName: _display, symObjAddr: 0xE4, symBinAddr: 0x100003BC4, symSize: 0xB4 }
+  - { offsetInCU: 0x106, offset: 0x106, size: 0x8, addend: 0x0, symName: _isMember, symObjAddr: 0x198, symBinAddr: 0x100003C78, symSize: 0x70 }
+  - { offsetInCU: 0x138, offset: 0x138, size: 0x8, addend: 0x0, symName: _displaySetR, symObjAddr: 0x208, symBinAddr: 0x100003CE8, symSize: 0xC0 }
+  - { offsetInCU: 0x178, offset: 0x178, size: 0x8, addend: 0x0, symName: _displaySetL, symObjAddr: 0x2C8, symBinAddr: 0x100003DA8, symSize: 0xC0 }
+  - { offsetInCU: 0x1B8, offset: 0x1B8, size: 0x8, addend: 0x0, symName: _member, symObjAddr: 0x388, symBinAddr: 0x100003E68, symSize: 0x64 }
+  - { offsetInCU: 0x1FC, offset: 0x1FC, size: 0x8, addend: 0x0, symName: _delete, symObjAddr: 0x3EC, symBinAddr: 0x100003ECC, symSize: 0x4C }
+...

@@ -1,0 +1,74 @@
+We separate
+by Gran Sabandal
+
+Write a program that takes a collection of numbers and returns a new collection that contains only the numbers that have the same parity as the first element. Parity means whether a number is even or odd. For example, if the first element is 2, then only the even numbers from the original collection should be in the new collection. The program should prompt the user to enter the total number of elements, then input each element one by one. After that, the program should display the original collection and the new collection.
+
+ 
+
+Additional Conditions:
+
+Must implement functions.
+
+3.0 => using an array with a count
+
+2.0 => using an array with a sentinel value (no count)
+
+1.0 => use the first index of the array as the count followed by the elements
+
+Sample Output 1
+
+Enter how many values: 5
+Enter the element 1: 1
+Enter the element 2: 2
+Enter the element 3: 3
+Enter the element 4: 4
+Enter the element 5: 5
+Original {1, 2, 3, 4, 5}
+New {1, 3, 5}
+Sample Output 2
+
+Enter how many values: 8
+Enter the element 1: 2
+Enter the element 2: 1
+Enter the element 3: 3
+Enter the element 4: 5
+Enter the element 5: 8
+Enter the element 6: 5
+Enter the element 7: 4
+Enter the element 8: 2
+Original {2, 1, 3, 5, 8, 5, 4, 2}
+New {2, 8, 4, 2}
+Sample Output 3
+
+Enter how many values: 5
+Enter the element 1: 2
+Enter the element 2: 1
+Enter the element 3: 3
+Enter the element 4: 9
+Enter the element 5: 21
+Original {2, 1, 3, 9, 21}
+New {2}
+
+-----------------------------
+
+My MINI me
+by Gran Sabandal
+
+Create a program that performs string compression by replacing repeated characters with their counts. When the program runs, it will ask the user to input a string. After receiving the input, the program will analyze the string and compress it by replacing consecutive repeated characters with a single occurrence followed by the count of repetitions in the consecutive repetition. Finally, it will display the compressed string as the output.
+
+ 
+
+Requirement: Implement as a function that returns the minified version of a given string.
+
+Sample Output 1
+
+Enter a string: aabbc
+Compressed string: a2b2c
+Sample Output 2
+
+Enter a string: cccccccceeeeeeeee
+Compressed string: c8e9
+Sample Output 3
+
+Enter a string: aaaaabbbbbb
+Compressed string: a5b6

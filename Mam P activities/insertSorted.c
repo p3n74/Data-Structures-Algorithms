@@ -1,99 +1,54 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+
+#include "insertSorted.h"
+
+// Definition of a List: 
+
+// typedef struct node {
+//     int data;
+//     struct node *next;
+// } *List, node;
+
+// helper functions:
+
+// void createList(List *a); Creates a linked list of 5 elements
+// void printList(List a); Prints a list
+
+// int genRand(int max, int min); Creates a random number
+// void createRandomListLength(List *a) Creates a linked list with a random length
 
 
-#define MAX 10
-
-typedef struct nodeArray{
-    int elem[MAX];
-    int count;
-    struct nodeArray *next;
-
-} *ListArray ;
-
-void populateArray(ListArray *A){
-
-    ListArray *trav;
-    int i;
-    for(i = 0, trav = A; i < 5; i++){
-        (*trav)->elem[i] = (i + 5);
-    }
-    (*trav)->count = (i);
-    (*trav)->next = NULL;
-}
-
-void printListArray(ListArray *L){
-    
-    ListArray *trav;
-    int x;
-
-    for(trav = L; (*trav) != NULL; trav = &(*trav)->next){
-        for(x = 0; x < ((*trav)->count) - 1; x++){
-            printf("%d -> ", (*trav)->elem[x]);
-        }
-        printf("%d\n", (*trav)->elem[x]);
-    }
-}
-
-void printInput(int a){
-    printf("\nTo be inserted: %d\n", a);
-}
-
-void insertSorted(ListArray *A, int b){
-    ListArray *trav;
-    int x,y;
-
-    for(trav = A; (*trav) != NULL; trav = &(*trav)->next){
-        for(x = 0; x <= (*trav)->count && b > (*trav)->elem[x]; x++){}
-
-        if((*trav)->elem[x] >= b){
-            if((*trav)->count == (MAX)){
-                printf("No more space\n");
-            } else {
-                for(y = ((*trav)->count) - 1; y >= x; y--){
-                    (*trav)->elem[y + 1] = (*trav)->elem[y];
-                }
-                (*trav)->elem[x] = b;
-                (*trav)->count++;
-                printInput(b);
-                printListArray(A);
-            }
-        }
-    }
-}
-
-/*
-
-Assignment
-
-a. insert(x, position, List)
-b. delete(p, L)
-c. locate(x, L)
-
-*/
-
+// Tasks:
+// void insertFirst(parameter 1, parameter 2);
+// void insertLast(parameter 1, parameter 2);
+// void insertSorted(parameter 1, parameter 2);
+//
+// void deleteFirst(parameter 1);
+// void deleteLast(parameter 1);
+//
+// void deleteValue(parameter 1, paremeter 2);
+// void deleteAllInstances(parameter 1, parameter 2);
+//
+// BONUS:
+//
+// int findMiddle(parameter 1); Goal - Return the middle element of the list in O(N)
+//
+// int insertNFromEnd(parameter 1, parameter 2); Goal - Insert a value that is N nodes from the end in O(N)
 
 
 int main(){
-    srand(time(NULL));
 
-    ListArray L = NULL;
-
-    L = (struct nodeArray*)malloc(sizeof(struct nodeArray));
-
-    populateArray(&L);
-
-    printListArray(&L);
-
-    insertSorted(&L, 9);
-    insertSorted(&L, 4);
-    insertSorted(&L, 6);
-    
-
-    
-    
-
-
+	srand(time(NULL));
+	List L;
+	initList(&L);
+	createList(&L);
+	printList(L);
+	
+	sortList(&L);
+	printList(L);
+	insertSorted(&L, 10);
+	printList(L);
+    return 0;
 
 }

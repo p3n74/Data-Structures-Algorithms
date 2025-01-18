@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/bastionii/Documents/GitHub/Data-Structures-Algorithms/Data-Structures-Algorithms/Mam P activities/premidterm_exam/output/Question1'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000037D0, symSize: 0x78 }
+  - { offsetInCU: 0x118, offset: 0x118, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000037D0, symSize: 0x78 }
+  - { offsetInCU: 0x140, offset: 0x140, size: 0x8, addend: 0x0, symName: _populateList, symObjAddr: 0x78, symBinAddr: 0x100003848, symSize: 0x24C }
+  - { offsetInCU: 0x1BF, offset: 0x1BF, size: 0x8, addend: 0x0, symName: _printRecords, symObjAddr: 0x2C4, symBinAddr: 0x100003A94, symSize: 0x1A4 }
+  - { offsetInCU: 0x1F1, offset: 0x1F1, size: 0x8, addend: 0x0, symName: _isAscending, symObjAddr: 0x468, symBinAddr: 0x100003C38, symSize: 0xF0 }
+  - { offsetInCU: 0x235, offset: 0x235, size: 0x8, addend: 0x0, symName: _removeCourse, symObjAddr: 0x558, symBinAddr: 0x100003D28, symSize: 0x16C }
+...

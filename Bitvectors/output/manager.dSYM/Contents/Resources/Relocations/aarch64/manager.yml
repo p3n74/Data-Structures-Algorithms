@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/bastionii/Documents/GitHub/Data-Structures-Algorithms/Data-Structures-Algorithms/Bitvectors/output/manager'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _init, symObjAddr: 0x0, symBinAddr: 0x100003C30, symSize: 0x18 }
+  - { offsetInCU: 0x58, offset: 0x58, size: 0x8, addend: 0x0, symName: _init, symObjAddr: 0x0, symBinAddr: 0x100003C30, symSize: 0x18 }
+  - { offsetInCU: 0x7C, offset: 0x7C, size: 0x8, addend: 0x0, symName: _display, symObjAddr: 0x18, symBinAddr: 0x100003C48, symSize: 0x9C }
+  - { offsetInCU: 0xBC, offset: 0xBC, size: 0x8, addend: 0x0, symName: _member, symObjAddr: 0xB4, symBinAddr: 0x100003CE4, symSize: 0x84 }
+  - { offsetInCU: 0x100, offset: 0x100, size: 0x8, addend: 0x0, symName: _delete, symObjAddr: 0x138, symBinAddr: 0x100003D68, symSize: 0xC4 }
+  - { offsetInCU: 0x15C, offset: 0x15C, size: 0x8, addend: 0x0, symName: _insert, symObjAddr: 0x1FC, symBinAddr: 0x100003E2C, symSize: 0x48 }
+  - { offsetInCU: 0x18E, offset: 0x18E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x244, symBinAddr: 0x100003E74, symSize: 0xF0 }
+...

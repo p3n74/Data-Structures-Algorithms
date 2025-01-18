@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/bastionii/Documents/GitHub/Data-Structures-Algorithms/Data-Structures-Algorithms/Dictionaries/output/manager'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _hash, symObjAddr: 0x0, symBinAddr: 0x100003088, symSize: 0x84 }
+  - { offsetInCU: 0x134, offset: 0x134, size: 0x8, addend: 0x0, symName: _hash, symObjAddr: 0x0, symBinAddr: 0x100003088, symSize: 0x84 }
+  - { offsetInCU: 0x178, offset: 0x178, size: 0x8, addend: 0x0, symName: _initStudlist, symObjAddr: 0x84, symBinAddr: 0x10000310C, symSize: 0x28 }
+  - { offsetInCU: 0x19C, offset: 0x19C, size: 0x8, addend: 0x0, symName: _printBitPattern, symObjAddr: 0xAC, symBinAddr: 0x100003134, symSize: 0x9C }
+  - { offsetInCU: 0x1DC, offset: 0x1DC, size: 0x8, addend: 0x0, symName: _enqueue, symObjAddr: 0x148, symBinAddr: 0x1000031D0, symSize: 0x80 }
+  - { offsetInCU: 0x21D, offset: 0x21D, size: 0x8, addend: 0x0, symName: _printList, symObjAddr: 0x1C8, symBinAddr: 0x100003250, symSize: 0x124 }
+  - { offsetInCU: 0x250, offset: 0x250, size: 0x8, addend: 0x0, symName: _initDict, symObjAddr: 0x2EC, symBinAddr: 0x100003374, symSize: 0x80 }
+  - { offsetInCU: 0x282, offset: 0x282, size: 0x8, addend: 0x0, symName: _transfer, symObjAddr: 0x36C, symBinAddr: 0x1000033F4, symSize: 0x58 }
+  - { offsetInCU: 0x2B4, offset: 0x2B4, size: 0x8, addend: 0x0, symName: _dictify, symObjAddr: 0x3C4, symBinAddr: 0x10000344C, symSize: 0x12C }
+  - { offsetInCU: 0x310, offset: 0x310, size: 0x8, addend: 0x0, symName: _createDict, symObjAddr: 0x4F0, symBinAddr: 0x100003578, symSize: 0x7C }
+  - { offsetInCU: 0x343, offset: 0x343, size: 0x8, addend: 0x0, symName: _printDict, symObjAddr: 0x56C, symBinAddr: 0x1000035F4, symSize: 0xDC }
+  - { offsetInCU: 0x375, offset: 0x375, size: 0x8, addend: 0x0, symName: _populateStudlist, symObjAddr: 0x648, symBinAddr: 0x1000036D0, symSize: 0x6D4 }
+  - { offsetInCU: 0x437, offset: 0x437, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xD1C, symBinAddr: 0x100003DA4, symSize: 0xBC }
+...
